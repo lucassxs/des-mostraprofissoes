@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Mostra de Profissões
+# Tri Mostra de Profissões
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-Shiny App
+Shiny App: <https://lucassxs.shinyapps.io/des-mostraprofissoes/>

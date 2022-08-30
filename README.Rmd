@@ -11,9 +11,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Mostra de Profissões
+# Tri Mostra de Profissões
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-Shiny App
+Shiny App: https://lucassxs.shinyapps.io/des-mostraprofissoes/
