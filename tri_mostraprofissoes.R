@@ -19,17 +19,17 @@ altura.par <- matrix(c(
   ),14,3,byrow=TRUE)
 altura.par
 
-name1  <-c(1,0,0,1,1,0,1,0,1,1,1,1,1,1)
-name2   <-c(0,0,0,0,0,0,1,0,1,1,0,1,0,0)
-name3   <- c(1,0,0,1,1,0,1,0,1,1,1,1,1,1)
-name4    <- c(0,0,0,0,0,0,1,0,1,1,0,0,0,0)
-name5  <- c(0,0,1,0,1,1,1,0,1,1,1,1,0,1)
-name6  <- c(0,1,1,0,0,1,1,0,1,1,1,1,1,1)
+name1  <-c(1,0,0,1,1,0,1,0,1,1,1,1,1,1) ## campos reativos
+name2   <-c(0,0,0,0,0,0,1,0,1,1,0,1,0,0) ## campos reativos
+name3   <- c(1,0,0,1,1,0,1,0,1,1,1,1,1,1) ## campos reativos
+name4    <- c(0,0,0,0,0,0,1,0,1,1,0,0,0,0) ## campos reativos
+name5  <- c(0,0,1,0,1,1,1,0,1,1,1,1,0,1) ## campos reativos
+name6  <- c(0,1,1,0,0,1,1,0,1,1,1,1,1,1) ## campos reativos
 resposta <-rbind(name1,name2,name3,name4,name5,name6)
 resposta
 
 
-alturas.reais  <- c(180,173,185,168,170,179)
+alturas.reais  <- c(180,173,185,168,170,179) ## campos reativos
 theta.resposta <- eap(resposta, altura.par, qu=normal.qu())
 theta.resposta
 
