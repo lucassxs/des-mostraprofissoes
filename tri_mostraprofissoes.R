@@ -19,13 +19,13 @@ altura.par <- matrix(c(
   ),14,3,byrow=TRUE)
 altura.par
 
-adilson  <-c(1,0,0,1,1,0,1,0,1,1,1,1,1,1)
-dalton   <-c(0,0,0,0,0,0,1,0,1,1,0,1,0,0)
-george   <- c(1,0,0,1,1,0,1,0,1,1,1,1,1,1)
-brian    <- c(0,0,0,0,0,0,1,0,1,1,0,0,0,0)
-adriana  <- c(0,0,1,0,1,1,1,0,1,1,1,1,0,1)
-willian  <- c(0,1,1,0,0,1,1,0,1,1,1,1,1,1)
-resposta <-rbind(adilson,dalton,george,brian,adriana,willian)
+name1  <-c(1,0,0,1,1,0,1,0,1,1,1,1,1,1)
+name2   <-c(0,0,0,0,0,0,1,0,1,1,0,1,0,0)
+name3   <- c(1,0,0,1,1,0,1,0,1,1,1,1,1,1)
+name4    <- c(0,0,0,0,0,0,1,0,1,1,0,0,0,0)
+name5  <- c(0,0,1,0,1,1,1,0,1,1,1,1,0,1)
+name6  <- c(0,1,1,0,0,1,1,0,1,1,1,1,1,1)
+resposta <-rbind(name1,name2,name3,name4,name5,name6)
 resposta
 
 
